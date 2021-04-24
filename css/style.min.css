@@ -23,7 +23,7 @@ a {
 }
 @media (max-width: 430px) {
   .nap {
-    width: 90%;
+    width: 100%;
   }
   .lerm {
     width: 90%;
