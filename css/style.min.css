@@ -17,6 +17,10 @@ a {
 .title {
   font-size: 40px;
 }
+.subtitle {
+  font-size: 20px;
+  opacity: 0.7;
+}
 .nap {
   width: 70%;
   opacity: 0.7;
@@ -24,6 +28,7 @@ a {
 @media (max-width: 460px) {
   .nap {
     width: 90%;
+    min-width: 420px;
   }
   .lerm {
     width: 80%;
@@ -31,6 +36,11 @@ a {
   .title {
     font-size: 30px;
     margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  .subtitle {
+    font-size: 18px;
   }
   .text {
     font-size: 20px;
